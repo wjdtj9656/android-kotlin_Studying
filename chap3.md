@@ -30,3 +30,8 @@
 가지고있음. activity, service, broadcastReceiver, content Provider</p>
 <img width="424" alt="진입점" src="https://user-images.githubusercontent.com/24909625/89642320-91e8f180-d8ee-11ea-93cf-fecdc01367af.PNG">
 <p>출처: 안드로이드 with Kotlin 앱 프로그래밍 가이드</p>
+
+<h4>런처란</h4>
+<p>런처는 안드로이드 홈화면을 담당하는 특수한 어플리케이션.</p>
+<p>안드로이드의 모든 어플은 홈키를 누르면 홈화면으로 돌아갑니다. 반대로 런처는
+홈 화면에서 다른 어플을 실행하는 역할을 함.</p>
