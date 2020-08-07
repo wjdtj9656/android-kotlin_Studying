@@ -18,3 +18,15 @@
 <li>위지윅(WYSIWYG)(What You See Is What You Get)방식인 design텝
 <li>XML 코드 수정을 할 수 있는 Text텝
 </ul>
+
+<hr>
+<h4>Gradle scripts</h4>
+<p>어플리케이션이 어떻게 구성되는지 빌드 정보, 환경설정 정보를 가지고있음</p>
+<p>Gradle은 빌드 시스템임. Gradle은 크게 android, dependencies</p>
+<p>dependencies는 어플리케이션이 작동하기 위한 라이브러리
+
+<h4>안드로이드의 진입점(entry point)</h4>
+<p>보통 언어는 main이 entry point지만, 안드로이드에선 단일 진입점 대신 4대 컴포넌트를
+가지고있음. activity, service, broadcastReceiver, content Provider</p>
+<img width="424" alt="진입점" src="https://user-images.githubusercontent.com/24909625/89642320-91e8f180-d8ee-11ea-93cf-fecdc01367af.PNG">
+<p>출처: 안드로이드 with Kotlin 앱 프로그래밍 가이드</p>
