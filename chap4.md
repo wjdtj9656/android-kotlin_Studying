@@ -86,3 +86,7 @@ class BmiKotlinActivity : AppCompatActivity() {
 </code>
 </pre>
 <p>코틀린과 자바의 차이점 중 하나는 view바인딩 작업이 없어져 코드가 간결 해 졌습니다.</p>
+
+<h4>코틀린의 변수</h4>
+<p>var clickCount = 0 은 var clickCount:Int = 0 과 같음.</p>
+<p>코틀린은 컴파일 시점에 타입을 결정하는 정적타입 언어임. (타입추론)</p>
