@@ -90,3 +90,16 @@ class BmiKotlinActivity : AppCompatActivity() {
 <h4>코틀린의 변수</h4>
 <p>var clickCount = 0 은 var clickCount:Int = 0 과 같음.</p>
 <p>코틀린은 컴파일 시점에 타입을 결정하는 정적타입 언어임. (타입추론)</p>
+
+<h4>코틀린 반복문 예시</h4>
+<pre>
+<code>
+for(item in collection){
+	println(item)
+}
+////////////////////////
+for(i in 0..100){
+	println(i)
+}
+</code>
+</pre>
