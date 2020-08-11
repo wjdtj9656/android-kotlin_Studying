@@ -103,3 +103,14 @@ for(i in 0..100){
 }
 </code>
 </pre>
+
+<h4>java Vs Kotlin 함수</h4>
+<pre>
+<code>
+fun function(age:int): int {
+   return 0
+}
+</code>
+</pre>
+<p>코틀린에서는 변수이름:타입 으로 인자를 쓰고, 반환값이 없을때는 자바와는 다르게(void)
+아무것도 쓰지 않아도 된다. 반환값이 있을때는 :타입으로 명시</p>
