@@ -118,3 +118,53 @@ fun function(age:int): int {
 <h4>최상위 함수</h4>
 <p>자바는 무조건 함수가 클래스 내부에 위치해야 하지만 코틀린은 아니다. 클래스 외부에 있는 함수를 최상위 함수라 함.</p>
 
+<h4>같은이름의 패키지 3개</h4>
+<p>test인것은 안드로이트 기능과 상관없는 java, kotlin 코드를 테스트, 
+andoridTest는 안드로이드 환경과 연관된 코드를 테스트 합니다.</p>
+
+<h4>kotlin vs java (getter, setter)</h4>
+<pre>
+<code>
+package com.example.kotlinsample;
+
+public class PersonJava {
+    private int age;
+
+    private final String name;
+
+    public PersonJava(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+    public void setAge(int age){
+        this.age=age;
+    }
+    public String getName() {
+        return name;
+    }
+}
+</code>
+</pre>
+<p>Person.java의 파일내용</p>
+
+<pre>
+<code>
+package com.example.kotlinsample
+
+class PersonKotlin {
+    var age:Int = 0
+    val name:String
+
+    constructor(name:String){
+        this.name = name
+    }
+
+}
+</code>
+</pre>
+<p>PersonKotlin.kt의 파일내용</p>
+<p>코틀린의 경우 var로 선언할경우 getter와 setter를, val로 선언할경우 getter를
+자동 생성하여 따로 만들어줄 필요가 없어서 간결하다</p>
