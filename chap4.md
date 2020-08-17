@@ -168,3 +168,8 @@ class PersonKotlin {
 <p>PersonKotlin.kt의 파일내용</p>
 <p>코틀린의 경우 var로 선언할경우 getter와 setter를, val로 선언할경우 getter를
 자동 생성하여 따로 만들어줄 필요가 없어서 간결하다</p>
+
+
+<h4>프로퍼티 vs 필드</h4>
+<p>프로퍼티(property)는 필드(field)와 getter or setter의 조합을 의미함 
+따라서 코틀린은 getter와 setter을 자동 생성하니 자동으로 프로퍼티가됨.</p>
