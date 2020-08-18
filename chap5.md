@@ -6,3 +6,58 @@
 <h4>Click 이벤트 리스너 등록방법 2가지 비교</h4>
 <img width="418" alt="Listener" src="https://user-images.githubusercontent.com/24909625/90487722-d2116500-e175-11ea-992f-8f31912aa0b2.PNG">
 <p>출처: 안드로이드 with Kotlin 앱 프로그래밍</p>
+<pre>
+<code>
+package com.example.lotto
+
+import android.content.Intent
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import android.view.View
+import kotlinx.android.synthetic.main.activity_test.*
+
+class TestActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_test)
+
+        button.setOnClickListener{
+            val intent = Intent(this@TestActivity, MainActivity::class.java)
+            startActivity(intent)
+        }
+        button2.setOnClickListener{
+            val intent = Intent(this@TestActivity,ConstellationActivity::class.java)
+            startActivity(intent)
+        }
+        button3.setOnClickListener{
+            val intent = Intent(this@TestActivity,NameActivity::class.java)
+            startActivity(intent)
+        }
+        button4.setOnClickListener {
+            val intent = Intent(this@TestActivity,ResultActivity::class.java)
+            startActivity(intent)
+        }
+    }
+
+    //xml에서 참조할 수 있게 메소드를 정의하는 방법
+/*
+    fun goConstellation(view: View){
+        val intent = Intent(this@TestActivity, ConstellationActivity::class.java)
+        startActivity(intent)
+    }
+    */
+</code>
+</pre>
+
+<h4>Toast 메시지 설정코드</h4>
+<pre>
+<code>
+Toast.makeText(applicationContext,"띄우고 싶은 메시지", Toast.LENGTH_LONG).show()
+</code>
+</pre>
+
+<h4>Activity 시작위해 Intent사용 2가지방법</h4>
+<ul>
+<li>명시적 호출(activity,service 이름알때)</li>
+<li>암시적 호출(activity,service 이름 명확히 적지않고, 작업유형을 선언)</li>
+</ul>
