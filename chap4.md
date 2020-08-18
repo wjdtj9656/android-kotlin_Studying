@@ -173,3 +173,9 @@ class PersonKotlin {
 <h4>프로퍼티 vs 필드</h4>
 <p>프로퍼티(property)는 필드(field)와 getter or setter의 조합을 의미함 
 따라서 코틀린은 getter와 setter을 자동 생성하니 자동으로 프로퍼티가됨.</p>
+
+<h4>코틀린 상속</h4>
+<p>코틀린은 상속 금지하는게 원칙, 사용하려면 open 키워드 사용해야함</p>
+
+<h4>코틀린 메소드</h4>
+<p>코틀린에서 클래스의 메소드는 기본적으로 final 처리되어
