@@ -61,3 +61,6 @@ Toast.makeText(applicationContext,"띄우고 싶은 메시지", Toast.LENGTH_LON
 <li>명시적 호출(activity,service 이름알때)</li>
 <li>암시적 호출(activity,service 이름 명확히 적지않고, 작업유형을 선언)</li>
 </ul>
+
+<h4>안드로이드 View</h4>
+<p>UI의 구성 요소 중 가장 추상화된 개념으로서, 화면에 표시되는 가장 기본적인 요소</p>
