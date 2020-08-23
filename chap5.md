@@ -64,3 +64,6 @@ Toast.makeText(applicationContext,"띄우고 싶은 메시지", Toast.LENGTH_LON
 
 <h4>안드로이드 View</h4>
 <p>UI의 구성 요소 중 가장 추상화된 개념으로서, 화면에 표시되는 가장 기본적인 요소</p>
+
+<h4>View, Viewgroup</h4>
+<p>레이아웃은 뷰그룹을 상속받은 실제 구현 클래스임, 버튼, 텍스트뷰, 에딧텍스트는 View를 상속받은 UI요소임</p>
