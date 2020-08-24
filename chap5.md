@@ -72,3 +72,12 @@ Toast.makeText(applicationContext,"띄우고 싶은 메시지", Toast.LENGTH_LON
 <p>초창기 안드로이드에는 종종 쓰였지만, 이제는 거의 사용되지 않는 레이아웃
 <br>
 AbsoluteLayout은 포함된 모든 자식 뷰를 절대적인 좌표로 위치시킵니다.
+<br>
+화면의 해상도에 따라 view의 위치가 바뀌는 것이 문제.(멀티 해상도 지원에 부적합)</p>
+
+<h4>LinearLayout</h4>
+<p>위쪽부터 선형대로 view 배치, 복잡한 뷰도 구현 가능,가운데 배치 위해선 gravity속성 사용가능</p>
+
+<h4>margin Vs padding</h4>
+<p>margin 부모 뷰와의 거리로, 객체가 움직임<br>
+padding은 뷰와 뷰안의 객체사이의 거리</p>
