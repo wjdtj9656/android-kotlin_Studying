@@ -67,3 +67,8 @@ Toast.makeText(applicationContext,"띄우고 싶은 메시지", Toast.LENGTH_LON
 
 <h4>View, Viewgroup</h4>
 <p>레이아웃은 뷰그룹을 상속받은 실제 구현 클래스임, 버튼, 텍스트뷰, 에딧텍스트는 View를 상속받은 UI요소임</p>
+
+<h4>AbsoluteLayout</h4>
+<p>초창기 안드로이드에는 종종 쓰였지만, 이제는 거의 사용되지 않는 레이아웃
+<br>
+AbsoluteLayout은 포함된 모든 자식 뷰를 절대적인 좌표로 위치시킵니다.
