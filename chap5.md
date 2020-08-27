@@ -83,4 +83,4 @@ AbsoluteLayout은 포함된 모든 자식 뷰를 절대적인 좌표로 위치�
 padding은 뷰와 뷰안의 객체사이의 거리</p>
 
 <h4>RelativeLayout</h4>
-<p>view를 부모뷰, 또는 다른 view와의 상대적인 위치관계를 기반으로 배치함</p>
+<p>view를 부모뷰, 또는 다른 view(형제 뷰)와의 상대적인 위치관계를 기반으로 배치함</p>
